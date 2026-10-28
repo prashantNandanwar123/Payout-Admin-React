@@ -1,0 +1,125 @@
+
+/* Service Page Styling */
+.tab-container div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Nav Tab Styling */
+  .nav-tabs {
+    border-bottom: 2px solid #ddd;
+    justify-content: start;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #555;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px 24px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-bottom: 3px solid #0056b3;
+  }
+  
+  /* Tab Content Styling */
+  .tab-content {
+    /* border: 1px solid #ddd; */
+    border-top: none;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    min-height: 150px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+  }
+  
+  .tab-pane {
+    font-size: 16px;
+    color: #333;
+  }
+  .suc-btn{
+  background: #00800008;
+  color: green;
+  padding: 5px;
+  font-weight: 600;
+  width: 100px;
+  }
+  .fail-btn{
+    background: #00800008;
+    color: red;
+    padding: 5px;
+    font-weight: 600;
+    width: 100px;
+    }
+  .first-div{
+    background: white;
+    padding: 15px;
+    /* box-shadow: 0px 0px 2px #8080809c; */
+    border-radius: 6px;
+    width: auto;
+  }
+  .outer-service-container .row{
+    padding-left: 40px;
+    gap: 20px;
+    justify-content: center;
+  }
+  .search-btn{
+    width: 388px;
+    border: 1px solid #80808059;
+    outline: none;
+    border-radius: 6px 0 0 6px;
+    border-right: 0;
+    padding-left: 10px;
+  }
+  .row .inner-service-container{
+    width: auto;
+    background: #f0f8ff7d;
+    padding: 15px;
+    box-shadow: 0px 0px 2px #8080809c;
+    border-radius: 6px;
+    display: flex;
+    /* gap: 10px; */
+    flex-direction: column;
+
+  }
+
+  .modal-header{
+    background: #6f74ec;
+    color: white;
+   align-items: center;
+   padding: 0;
+   overflow: hidden;
+  }
+  /* .modal-header div{
+    position: relative;
+    } */
+    .modal-header .btn-close{
+      background: #ff0000ab;
+      height: 40px;
+      width: 50px;
+      color: white;
+      position: relative;
+      color: white !important;
+      opacity: 1;
+  }
+  .modal-title{
+    margin-left: 10px;
+  }
+  .btn-close svg{
+    height: 38px;
+    width: 40px;
+  }
+  .modal-dialog {
+   margin-top:15px !important;
+  }
+  .searchBar{
+    margin-top: 40px;
+  }

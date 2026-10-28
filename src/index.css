@@ -1,0 +1,209 @@
+:root {
+    --color0: #00ada6;
+    --color1: #010332;
+}
+/* .collapse{
+    display: none;
+} */
+/* global class css start */
+.theme-btn { background-color: var(--color0) !important; }
+.cursor-not-allow { cursor: not-allowed; background-color: #f3f3f3 !important; }
+.theme-clr { color: var(--color0); }
+.inpErr{ font-size: 14px; }
+/* global class css end */
+
+/* global table css start */
+.payout-table tr th,
+.payout-table tr td {
+    white-space: nowrap;
+}
+.new-list-group{
+    transform: scale(0.9);
+}
+.payout-table tr th {
+    background-color: var(--color1);
+    color: white;
+}
+.payout-table tr td {
+    font-size: 14px;
+}
+.payout-table button {
+    background-color: var(--color0) !important;
+    font-size: 14px;
+}
+/* global table css end */
+
+/* global pagination css start */
+.pagination .page-link:hover{
+    color: var(--color0);
+}
+.list-group-item {
+    border: 0 !important;
+}
+.pagination > .active .page-link{
+    background-color: var(--color0);
+    border-color: var(--color0);
+    color: white;
+}
+/* global pagination css end */
+
+/* date input start */
+.date-input > input[type=text]{
+    cursor: pointer;
+}
+/* date input end */
+
+.login-form {
+    width: 400px;
+}
+
+.login-form>button {
+    background-color: var(--color0) !important;
+}
+
+.login-heading::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    width: 70%;
+    height: 4px;
+    background-color: var(--color0);
+}
+
+.payout-nav {
+    width: 240px;
+    position: fixed;
+    height: 100%;
+    background: linear-gradient(45deg, #252874, #595cba);
+}
+
+.main-content {
+    margin-left: 240px;
+}
+
+.page-heading {
+    background-color: var(--color0);
+}
+
+.page-heading .navbar-nav >li {
+    font-size: 20px;
+}
+.page-heading .logout:active {
+    background-color: var(--color0);
+}
+
+.page-heading .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+}
+
+.check-bg {
+    box-shadow: none !important;
+    border: 1px solid rgba(0,0,0,.25) !important;
+}
+.check-bg:checked:after {
+    content: "\2713";
+    background-color: var(--color0);
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    color: white;
+}
+
+/* user management */
+.usrchargeform button[type=submit]{
+    margin-top: 35px;
+}
+.charges-table button{
+    background-color: white !important;
+}
+
+/* Dashboard Page */
+.db-box i { 
+    font-size: 40px;
+}
+.db-box strong {
+    font-size: 18px;
+}
+.db-box-1 > i { color: cornflowerblue; }
+.db-box-2 > i { color: #68b368; }
+.db-box-3 > i { color: coral; }
+.db-box-4 > i { color: #cd3b57; }
+
+/* Dashboard Page */
+
+/* wallet page */
+.wallet-card{
+    width: 300px;
+    background-color: var(--color1);
+}
+.wallet-card strong{
+    font-size: 20px;
+}
+/* wallet page */
+
+/* reseller */
+.re-update {
+    margin-top: 35px;
+}
+/* reseller */
+
+@media(min-width: 576px){
+    .viewmodal .modal-sm{
+        max-width: fit-content;
+    }
+}
+
+@media(max-width: 992px){
+    .payout-nav > ul li a strong{
+        display: none;
+    }
+    .main-content {
+        margin-left: 86px;
+    }
+    .payout-nav {
+        width: 86px;
+    }
+    .admin-logo{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    .page-heading .navbar-nav {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .page-heading h6 {
+        margin-bottom: 5px !important;
+    }
+    .re-update {
+        margin-top: 0;
+    }
+}
+
+/* @media(max-width: 576px){
+    .payout-nav > ul li a strong{
+        display: none;
+    }
+    .main-content {
+        margin-left: 86px;
+    }
+    .payout-nav {
+        width: 86px;
+    }
+    .admin-logo{
+        display: none;
+    }
+} */
+
+/* .collapse:not(.show) {
+    display: inline;
+} */
+/* .collapse a.active .collapse{
+    display: block !important;
+} */
+ #username #password{
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+ }
